@@ -5,7 +5,7 @@ def fibonacci(n):
 
     listOfFibNums = [0,1]
     if(n == 0): return []
-    elif (n==1 ): return [0]
+    elif (n == 1): return [0]
     else:
         for x in range(1, n-1):
             listOfFibNums.append(listOfFibNums[x-1] + listOfFibNums[x])
